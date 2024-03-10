@@ -1,0 +1,114 @@
+.cont-from{
+    
+    background-color: white;
+    
+}
+.cont-content{
+    background-image: linear-gradient(rgb(52,82,205), rgb(12,20,77))
+
+}
+.text-login,button{
+    width: fit-content;
+    color: rgb(10, 10, 75);
+    position: relative;
+    letter-spacing: 2px;
+    /* background-color: ; */
+}
+.cont-content button{
+    border: none;
+    background-image: linear-gradient(to left, rgb(52,82,205), rgb(12,20,77))
+    ;
+    font-weight: 500;
+    /* margin-top: 100px; */
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.cont-content button:active{
+    transform: scale(0.99);
+}
+.text-login::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 3.5px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right,rgb(52,82,205), rgb(12,20,77))
+}
+label{
+    
+    color:rgb(10, 10, 75);
+    font-weight: 500;
+
+}
+input{
+    outline: none;
+    position: relative;
+    
+}
+span{
+    content: '';
+    position: absolute;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 3px;
+    bottom: -1px;
+    background-image: linear-gradient(to left, rgb(52,82,205), rgb(12,20,77));
+    background-color: blue;
+}
+.span2{
+    bottom: 0px;
+}
+.sign-up,.pas{
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color:  rgb(52,82,205);
+    font-weight: 400;
+}
+.pas{
+    top: -20px;
+}
+a{
+    text-decoration: none;
+}
+.load{
+    color: rgb(52,82,205);
+
+}
+.eye{
+    cursor: pointer;
+    color: rgb(52,82,205);
+}
+.togl{
+    background-image: linear-gradient(red,red);
+}
+.togleye{
+   color: red;
+}
+.japan-teks{
+    color: #7ada51;
+    letter-spacing: 1px;
+   text-shadow: 2px 2px 2px #2cbd6e;
+}
+.japan-teks::after{
+    border-radius: 10px;
+    content: "";
+    display: block;
+    background-image: linear-gradient(to left, #9FF37A , #2cbd6e);
+    height: 5px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+.profile-navbar{
+    background-image: linear-gradient(to right, #9FF37A , #2cbd6e)
+}
+p{
+    margin: 0px;
+    padding: 0px;
+}

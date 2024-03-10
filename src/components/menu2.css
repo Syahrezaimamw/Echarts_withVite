@@ -1,0 +1,22 @@
+.clc{
+    width: calc(100% - 65px);
+}
+.pop button{
+    outline: none;
+    background-color: transparent;
+}
+
+.pop{
+    /* background-image: linear-gradient(to bottom, rgb(52,82,205), rgb(12,20,77))
+    ; */
+    transition: 1s;
+}
+.bt{
+    border-bottom: 1px solid rgb(181, 178, 178);
+}
+.d{
+    /* background-color: red; */
+    /* backdrop-filter: blur(10px); */
+    /* -webkit-backdrop-filt/er: blur(10px); */
+    /* filter: blur(2px); */
+}

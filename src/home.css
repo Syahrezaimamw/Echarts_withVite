@@ -1,0 +1,178 @@
+li{
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    /* background-color: red; */
+    margin-right:50px;
+    font-weight: 600;
+}
+li i{
+    position: relative;
+    bottom: 2px;
+    margin-right: 20px;
+}
+.libdg{
+    display: flex;
+    justify-content: space-between;
+}
+input::placeholder{
+    font-weight: 400;
+}
+.bdg{
+    background-color: rgb(226,105,77);
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    margin-left: 3px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: white;
+    justify-content: center;
+}
+.contain-2 p{
+    font-weight: 500;
+}
+.ktk{
+    background-image: linear-gradient(to top, rgb(255, 255, 255) ,rgb(230, 230, 232)   )
+    ;
+    box-shadow: 0px 0px 1px  rgb(12,20,77);
+}
+/* background-image: linear-gradient(to top, rgb(255, 255, 255) ,rgb(230, 230, 232)   )
+; */
+.ktk p:nth-child(2){
+    color: rgb(122, 122, 123);
+    font-weight: 400;
+    font-size: 14px;
+}
+.ymd{
+    cursor: pointer;
+}
+.ymd:nth-child(1),.ymd:nth-child(2){
+    padding: 4px 7px;
+    
+}
+.ymd:nth-child(1):hover,.ymd:nth-child(2):hover{
+    padding: 4px 7px;
+    background-color: blue;
+    color: white;
+    border-radius: 6px;
+    background-color: rgb(52,83,205);
+}
+.ic-menu2{
+    font-size: 20px;
+    color: rgb(99, 99, 99);
+}
+.see-all{
+    box-shadow: 0px 3px 10px rgb(215, 215, 216);
+    font-weight: 700;
+    color: rgb(36, 36, 36);
+    font-size: 13px;
+}
+.see-all:active{
+    transform: scale(0.9);
+    /* background-color: aqua; */
+}
+.see-all i{
+    margin-left: 20px;
+}
+.grd{
+    background-image: linear-gradient(to top, rgb(216, 210, 210) ,rgb(160, 160, 163) )
+    ;
+}
+.side{
+    left: -25px;
+    background-color: white;
+}
+.sideDom{
+    left: 0px;
+
+}
+.cnt-home{
+    overflow-x: hidden;
+    width: 100%;
+}
+.cnt-home-dom{
+    width: 0%;
+    transition: 1s ease;
+}
+.nonhilang{
+    display: flex;
+}
+.hilang-dom{
+    display: none;
+}
+.homedua{
+    position: relative;
+    animation: home2 2s ease;
+    transform-origin: left;
+}
+@keyframes home2 {
+    0%{
+        width: 0%;
+        left: 0;
+    }
+    100%{
+        transform-origin: left;
+        width: 100%;
+    }
+    
+}
+:root {
+    --animate-delay: 2s;
+  }
+  .delay-1 {
+    animation-delay: .25s;
+    }
+    .delay-2 {
+    animation-delay: .5s;
+    }
+    .delay-3 {
+    animation-delay: .75s;
+    }
+    .delay-4 {
+    animation-delay: 1s;
+    }
+    .gr{
+        /* background-image: linear-gradient(to bottom, rgb(52,82,205), rgb(12,20,77));  */
+        color:white;
+        font-size: 14px;
+        padding: 2px 5px;
+        font-weight: 500;
+    }
+    /* rgb(52,82,205), rgb(12,20,77) */
+
+    .gr-h{
+        background-color:white;
+    }
+    .bggr-h{
+        /* background-image: linear-gradient(to top, rgb(216, 210, 210) ,rgb(160, 160, 163) )
+        ; */
+        background-image: linear-gradient(to top, rgb(216, 210, 210) ,rgb(182, 182, 186) );
+        font-weight: 500;
+        
+    }
+    .gr-p{
+        background-color:white;
+        /* background-color:#54ae8a; */
+    }
+    .bggr-p{
+        font-weight: 500;
+        background-image: linear-gradient(to top, rgb(216, 210, 210) ,rgb(182, 182, 186) )
+    ;
+
+    }
+    .last{
+        /* color:rgb(98, 97, 97) ; */
+        /* color: rgb(221, 218, 218); */
+        font-size: 15px;
+    }
+    .clr{
+        /* color: rgb(221, 218, 218); */
+
+    }
+     h4{
+        font-size: 29px;
+        font-weight: 900;
+    }
