@@ -14,7 +14,7 @@ export default function App() {
 
 <Routes>
 
-  <Route path="/Echarts_withVite/" element={<Home/>} />
+  <Route path="/*" element={<Home/>} />
   <Route path="/Echarts_withVite/signin" element={<SignIn/>} />
   <Route path="/Echarts_withVite/homedua" element={<Homedua/>} />
   <Route path="/Echarts_withVite/signup" element={<SignUp/>} />
